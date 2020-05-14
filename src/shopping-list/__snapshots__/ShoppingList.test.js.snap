@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoppingList component renders ShoppingItems when supplied with an items prop 1`] = `
+<shoppingList
+  items={
+    Array [
+      Object {
+        "checked": false,
+        "name": "test item 1",
+      },
+      Object {
+        "checked": true,
+        "name": "another test item",
+      },
+      Object {
+        "checked": false,
+        "name": "test item number three",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`ShoppingList component renders empty given no items 1`] = `<shoppingList />`;
